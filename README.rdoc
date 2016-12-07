@@ -1,15 +1,15 @@
 == README
 
-This is simple API that reads data from a CSV file and respoces to the different endpint.
+This is simple API that reads data from a CSV file and returns different endpints response.
 
 * RSpec test suite is written.
 
-* Modelless API, Data are directly extracted from the CSV file. 
+* Modeless API, Data are directly extracted from the CSV file. 
 
 * Deployed on heroku => http://apitst.herokuapp.com
 
-* Responces to different endpoints.
-      
+* Returns different endpoints response.
+
     -> http://apitst.herokuapp.com/films.json
     -> http://apitst.herokuapp.com/films.xml
     -> http://apitst.herokuapp.com/films.html
