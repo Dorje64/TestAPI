@@ -1,28 +1,16 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is simple API that reads data from a CSV file and respoces to the different endpint.
 
-Things you may want to cover:
+* RSpec test suite is written.
 
-* Ruby version
+* Modelless API, Data are directly extracted from the CSV file. 
 
-* System dependencies
+* Deployed on heroku => http://apitst.herokuapp.com
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Responces to different endpoints.
+      
+    -> http://apitst.herokuapp.com/films.json
+    -> http://apitst.herokuapp.com/films.xml
+    -> http://apitst.herokuapp.com/films.html
+    
