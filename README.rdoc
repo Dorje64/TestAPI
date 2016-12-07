@@ -4,7 +4,7 @@ This is simple API that reads data from a CSV file and returns different endpint
 
 * RSpec test suite is written.
 
-* Modeless API, Data are directly extracted from the CSV file. 
+* Modeless API, Datas are directly extracted from the CSV file. 
 
 * Deployed on heroku => http://apitst.herokuapp.com
 
